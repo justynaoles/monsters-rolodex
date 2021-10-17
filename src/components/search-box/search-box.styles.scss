@@ -1,0 +1,25 @@
+.search {
+  -webkit-appearance: none;
+  background: transparent;
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  outline: none;
+  padding: 8px 8px 4px 4px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFF;
+  opacity: .5;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFF
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFF;
+}
